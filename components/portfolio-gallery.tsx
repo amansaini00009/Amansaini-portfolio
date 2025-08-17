@@ -8,16 +8,9 @@ import { Badge } from "@/components/ui/badge"
 export default function PortfolioGallery() {
   const [activeFilter, setActiveFilter] = useState("All")
 
-  const categories = ["All", "Logos", "Social Media", "Thumbnails", "Motion Graphics", "Video Editing"]
+  const categories = ["All", "Social Media", "Thumbnails", "Video Editing"]
 
   const portfolioItems = [
-    {
-      id: 1,
-      title: "Tech Startup Logo",
-      category: "Logos",
-      image: "/modern-tech-startup-logo.png",
-      description: "Clean and modern logo design for a tech startup",
-    },
     {
       id: 2,
       title: "Instagram Post Series",
@@ -33,46 +26,11 @@ export default function PortfolioGallery() {
       description: "Eye-catching thumbnail for tech review video",
     },
     {
-      id: 4,
-      title: "Animated Logo Reveal",
-      category: "Motion Graphics",
-      image: "/animated-logo-reveal.png",
-      description: "Dynamic logo animation with smooth transitions",
-    },
-    {
       id: 5,
       title: "Product Demo Video",
       category: "Video Editing",
       image: "/placeholder.svg?height=300&width=300",
       description: "Professional product demonstration video",
-    },
-    {
-      id: 6,
-      title: "Restaurant Logo",
-      category: "Logos",
-      image: "/placeholder.svg?height=300&width=300",
-      description: "Elegant logo design for fine dining restaurant",
-    },
-    {
-      id: 7,
-      title: "Facebook Ad Campaign",
-      category: "Social Media",
-      image: "/placeholder.svg?height=300&width=300",
-      description: "Conversion-focused Facebook ad design",
-    },
-    {
-      id: 8,
-      title: "Gaming Thumbnail",
-      category: "Thumbnails",
-      image: "/placeholder.svg?height=300&width=300",
-      description: "High-energy gaming video thumbnail",
-    },
-    {
-      id: 9,
-      title: "Text Animation",
-      category: "Motion Graphics",
-      image: "/placeholder.svg?height=300&width=300",
-      description: "Kinetic typography for promotional video",
     },
   ]
 
