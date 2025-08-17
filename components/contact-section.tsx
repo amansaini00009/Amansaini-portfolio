@@ -94,20 +94,24 @@ export default function ContactSection() {
             <div>
               <h4 className="font-semibold text-lg mb-4 text-foreground">Connect With Me</h4>
               <div className="flex gap-4">
-                <Button
-                  variant="outline"
-                  size="icon"
-                  className="hover:bg-primary hover:text-primary-foreground bg-transparent"
-                >
-                  <Linkedin className="h-5 w-5" />
-                </Button>
-                <Button
-                  variant="outline"
-                  size="icon"
-                  className="hover:bg-primary hover:text-primary-foreground bg-transparent"
-                >
-                  <Instagram className="h-5 w-5" />
-                </Button>
+                <a href="https://www.linkedin.com/in/aman-saini-112847344/" target="_blank" rel="noopener noreferrer">
+                  <Button
+                    variant="outline"
+                    size="icon"
+                    className="hover:bg-primary hover:text-primary-foreground bg-transparent"
+                  >
+                    <Linkedin className="h-5 w-5" />
+                  </Button>
+                </a>
+                <a href="https://www.instagram.com/aman.edtion/" target="_blank" rel="noopener noreferrer">
+                  <Button
+                    variant="outline"
+                    size="icon"
+                    className="hover:bg-primary hover:text-primary-foreground bg-transparent"
+                  >
+                    <Instagram className="h-5 w-5" />
+                  </Button>
+                </a>
               </div>
             </div>
           </div>
