@@ -8,21 +8,21 @@ export default function HobbiesSection() {
       title: "Connecting with People",
       description:
         "I love meeting new people and building meaningful relationships. Networking and collaboration fuel my creativity.",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/connecting-people.jpeg",
     },
     {
       icon: BookOpen,
       title: "Reading Books",
       description:
         "Passionate reader who enjoys exploring design theory, business books, and creative inspiration from various authors.",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/reading-books.jpeg",
     },
     {
       icon: MapPin,
       title: "Travelling",
       description:
         "Exploring new places and cultures provides endless inspiration for my creative work and broadens my perspective.",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/travelling.jpg",
     },
   ]
 
