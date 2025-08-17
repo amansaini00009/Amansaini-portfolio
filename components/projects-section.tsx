@@ -20,21 +20,6 @@ export default function ProjectsSection() {
       tags: ["YouTube", "Thumbnails", "Channel Art"],
       type: "Design",
     },
-    {
-      title: "Product Launch Video Campaign",
-      description:
-        "Created engaging promotional videos with motion graphics and storytelling for a tech product launch.",
-      image: "/product-launch-video-motion-graphics.png",
-      tags: ["Video Editing", "Motion Graphics", "Marketing"],
-      type: "Video",
-    },
-    {
-      title: "Restaurant Menu Design",
-      description: "Modern and appetizing menu design with food photography enhancement and layout optimization.",
-      image: "/restaurant-menu.png",
-      tags: ["Menu Design", "Food Photography", "Print Design"],
-      type: "Design",
-    },
   ]
 
   return (
