@@ -13,7 +13,7 @@ export default function HeroSection() {
           {/* Profile Image */}
           <div className="mb-8">
             <img
-              src="/graphic-designer-headshot.png"
+              src="amandp.jpg"
               alt="Aman Saini"
               className="w-48 h-48 rounded-full mx-auto border-4 border-primary shadow-2xl animate-float"
             />
