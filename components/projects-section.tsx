@@ -76,11 +76,7 @@ export default function ProjectsSection() {
           ))}
         </div>
 
-        <div className="text-center mt-12">
-          <Button size="lg" className="bg-primary hover:bg-primary/90">
-            View All Projects
-          </Button>
-        </div>
+        
       </div>
     </section>
   )

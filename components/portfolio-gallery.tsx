@@ -94,14 +94,10 @@ export default function PortfolioGallery() {
             ) : (
               <div key={item.id}>{card}</div>
             );
-          })}}
+          })}
         </div>
 
-        <div className="text-center mt-12">
-          <Button size="lg" variant="outline">
-            Load More Projects
-          </Button>
-        </div>
+        
       </div>
     </section>
   )
