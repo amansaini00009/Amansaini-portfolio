@@ -17,6 +17,7 @@ export default function PortfolioGallery() {
       category: "Social Media",
       image: "/fashion-brand-instagram-post.png",
       description: "Cohesive Instagram post series for fashion brand",
+      link: "https://www.instagram.com/aman.edtion/",
     },
     {
       id: 3,
