@@ -30,9 +30,11 @@ export default function HeroSection() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button size="lg" className="bg-primary hover:bg-primary/90 text-lg px-8 py-3">
-              View My Work
-            </Button>
+            <a href="#portfolio">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-lg px-8 py-3">
+                View My Work
+              </Button>
+            </a>
             <a href="/Amansaini_Resume.pdf" download>
               <Button variant="outline" size="lg" className="text-lg px-8 py-3 bg-transparent">
                 <Download className="mr-2 h-5 w-5" />
