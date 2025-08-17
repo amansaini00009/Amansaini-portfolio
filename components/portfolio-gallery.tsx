@@ -30,7 +30,7 @@ export default function PortfolioGallery() {
       id: 5,
       title: "Product Demo Video",
       category: "Video Editing",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/my-work.png",
       description: "Professional product demonstration video",
       link: "https://drive.google.com/drive/folders/1PqO3vr72tzWtqwTuXPTJBcI3abwGTyXd?usp=sharing",
     },
