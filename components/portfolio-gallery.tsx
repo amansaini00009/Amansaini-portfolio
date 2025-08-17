@@ -24,7 +24,7 @@ export default function PortfolioGallery() {
       title: "YouTube Thumbnail",
       category: "Thumbnails",
       image: "/tech-review-thumbnail.png",
-      description: "Eye-catching thumbnail for tech review video",
+      description: "My Eye-Catching Thumbnails For YouTube Videos",
       link: "https://drive.google.com/drive/folders/1gk72QYLBrZ_Xkn1EJ7lUMLCLNlzcjBmn?usp=sharing",
     },
     {
@@ -32,7 +32,7 @@ export default function PortfolioGallery() {
       title: "Product Demo Video",
       category: "Video Editing",
       image: "/my-work.png",
-      description: "Professional product demonstration video",
+      description: "Some of My Video Edits",
       link: "https://drive.google.com/drive/folders/1PqO3vr72tzWtqwTuXPTJBcI3abwGTyXd?usp=sharing",
     },
   ]
