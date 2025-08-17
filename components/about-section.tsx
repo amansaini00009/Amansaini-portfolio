@@ -9,7 +9,7 @@ export default function AboutSection() {
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <img src="/creative-workspace.png" alt="Creative workspace" className="rounded-lg shadow-lg w-full" />
+              <img src="amandp.jpg" alt="Creative workspace" className="rounded-lg shadow-lg w-full" />
             </div>
 
             <div className="space-y-6">
