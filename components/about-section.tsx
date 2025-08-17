@@ -7,9 +7,9 @@ export default function AboutSection() {
         <div className="max-w-4xl mx-auto">
           <h2 className="font-serif font-black text-4xl md:text-5xl text-center mb-12 text-foreground">About Me</h2>
 
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <img src="creative-workspace.png" alt="Creative workspace" className="rounded-lg shadow-lg w-full" />
+              <img src="creative-workspace.png" alt="Creative workspace" className="rounded-lg shadow-lg w-full h-full object-cover" />
             </div>
 
             <div className="space-y-6">

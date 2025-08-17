@@ -9,7 +9,7 @@ export default function Footer() {
 
           <div className="border-t border-background/20 pt-8">
             <p className="text-sm opacity-75">
-              © 2024 Aman Saini. All rights reserved. | Designed with passion and creativity.
+              © 2025 Aman Saini. All rights reserved. | Designed with passion and creativity.
             </p>
           </div>
         </div>

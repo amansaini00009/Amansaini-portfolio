@@ -40,7 +40,7 @@ export default function HobbiesSection() {
                 <img
                   src={hobby.image || "/placeholder.svg"}
                   alt={hobby.title}
-                  className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="w-full aspect-[16/9] object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute top-4 left-4 bg-primary/90 p-2 rounded-lg">
                   <hobby.icon className="h-6 w-6 text-white" />
