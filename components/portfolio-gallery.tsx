@@ -31,6 +31,7 @@ export default function PortfolioGallery() {
       category: "Video Editing",
       image: "/placeholder.svg?height=300&width=300",
       description: "Professional product demonstration video",
+      link: "https://drive.google.com/drive/folders/1PqO3vr72tzWtqwTuXPTJBcI3abwGTyXd?usp=sharing",
     },
   ]
 
@@ -60,30 +61,39 @@ export default function PortfolioGallery() {
 
         {/* Portfolio Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-          {filteredItems.map((item) => (
-            <Card key={item.id} className="group overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="relative overflow-hidden">
-                <img
-                  src={item.image || "/placeholder.svg"}
-                  alt={item.title}
-                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                  <div className="text-center text-white p-4">
-                    <h3 className="font-serif font-bold text-lg mb-2">{item.title}</h3>
-                    <p className="text-sm mb-3">{item.description}</p>
-                    <Badge variant="secondary" className="bg-white/20 text-white">
-                      {item.category}
-                    </Badge>
+          {filteredItems.map((item) => {
+            const card = (
+              <Card className="group overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
+                <div className="relative overflow-hidden">
+                  <img
+                    src={item.image || "/placeholder.svg"}
+                    alt={item.title}
+                    className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                    <div className="text-center text-white p-4">
+                      <h3 className="font-serif font-bold text-lg mb-2">{item.title}</h3>
+                      <p className="text-sm mb-3">{item.description}</p>
+                      <Badge variant="secondary" className="bg-white/20 text-white">
+                        {item.category}
+                      </Badge>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <CardContent className="p-4">
-                <h3 className="font-serif font-bold text-lg mb-2 text-foreground">{item.title}</h3>
-                <p className="text-muted-foreground text-sm">{item.description}</p>
-              </CardContent>
-            </Card>
-          ))}
+                <CardContent className="p-4">
+                  <h3 className="font-serif font-bold text-lg mb-2 text-foreground">{item.title}</h3>
+                  <p className="text-muted-foreground text-sm">{item.description}</p>
+                </CardContent>
+              </Card>
+            );
+            return item.link ? (
+              <a href={item.link} key={item.id} target="_blank" rel="noopener noreferrer">
+                {card}
+              </a>
+            ) : (
+              <div key={item.id}>{card}</div>
+            );
+          })}}
         </div>
 
         <div className="text-center mt-12">
