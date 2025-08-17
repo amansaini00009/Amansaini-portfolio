@@ -33,10 +33,12 @@ export default function HeroSection() {
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-lg px-8 py-3">
               View My Work
             </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 py-3 bg-transparent">
-              <Download className="mr-2 h-5 w-5" />
-              Download Resume
-            </Button>
+            <a href="/Amansaini_Resume.pdf" download>
+              <Button variant="outline" size="lg" className="text-lg px-8 py-3 bg-transparent">
+                <Download className="mr-2 h-5 w-5" />
+                Download Resume
+              </Button>
+            </a>
           </div>
         </div>
 
